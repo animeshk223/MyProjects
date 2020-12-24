@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login Page Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.976">
+  <properties />
+  
+  
+            <testcase name="validateAddCustPageTest" time="0.151" classname="com.w2a.testcases.AddCustomerPageTest" />
+                <testcase name="validateCustomerAddedTest" time="0.981" classname="com.w2a.testcases.AddCustomerPageTest" />
+                <testcase name="validateCustomerAddedTest" time="0.844" classname="com.w2a.testcases.AddCustomerPageTest" />
+      
+</testsuite>

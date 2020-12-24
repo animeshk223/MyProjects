@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[validateAddCustPageTest Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-12-21T21:26:40 IST" name="Default suite" finished-at="2020-12-21T21:26:51 IST" duration-ms="11656">
+    <groups>
+    </groups>
+    <test started-at="2020-12-21T21:26:40 IST" name="Default test" finished-at="2020-12-21T21:26:51 IST" duration-ms="11656">
+      <class name="com.w2a.testcases.AddCustomerPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.w2a.testcases.AddCustomerPageTest@65466a6a]" started-at="2020-12-21T21:26:40 IST" name="setup" finished-at="2020-12-21T21:26:49 IST" duration-ms="8987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateAddCustPageTest()[pri:0, instance:com.w2a.testcases.AddCustomerPageTest@65466a6a]" started-at="2020-12-21T21:26:49 IST" name="validateAddCustPageTest" finished-at="2020-12-21T21:26:49 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validateAddCustPageTest Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAddCustPageTest -->
+        <test-method signature="validateCustomerAddedTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerPageTest@65466a6a]" started-at="2020-12-21T21:26:50 IST" name="validateCustomerAddedTest" data-provider="dp" finished-at="2020-12-21T21:26:50 IST" duration-ms="616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lname1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pcode1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAddedTest -->
+        <test-method signature="validateCustomerAddedTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.w2a.testcases.AddCustomerPageTest@65466a6a]" started-at="2020-12-21T21:26:50 IST" name="validateCustomerAddedTest" data-provider="dp" finished-at="2020-12-21T21:26:51 IST" duration-ms="381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lname2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pcode2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCustomerAddedTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.w2a.testcases.AddCustomerPageTest@65466a6a]" started-at="2020-12-21T21:26:51 IST" name="teardown" finished-at="2020-12-21T21:26:51 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.w2a.testcases.AddCustomerPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
