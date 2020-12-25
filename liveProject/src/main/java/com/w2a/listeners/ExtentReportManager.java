@@ -18,7 +18,7 @@ public class ExtentReportManager extends TestBase {
 
 	public void setExtent() {
 		
-		extent = new ExtentReports("F:\\EthansWorkspace\\liveProject\\test-output\\ExtentReport.html", true);
+		extent = new ExtentReports("C:\\Users\\Animesh\\.jenkins\\workspace\\LiveProject1_Jenkins\\liveProject\\ExtentReport.html", true);
 		extent.addSystemInfo("Host Name", "Animesh Windows");
 		extent.addSystemInfo("User Name", "Animesh's Workstation");
 		extent.addSystemInfo("Environment", "QA");
