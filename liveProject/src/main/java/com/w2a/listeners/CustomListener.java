@@ -5,16 +5,10 @@ import java.io.IOException;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
-
 import com.w2a.utils.TakeScreenShot1;
 
 public class CustomListener extends ExtentReportManager implements ITestListener {
-
-	private static int counter = 0;
 
 	public void onTestStart(ITestResult result) {
 
