@@ -62,6 +62,7 @@ public class CustomListener extends ExtentReportManager implements ITestListener
 	}
 
 	public void onFinish(ITestContext context) {
+		System.out.println("onFinish");
 		if (extent != null) {
 			extent.flush();
 			}
