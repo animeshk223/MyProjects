@@ -1,5 +1,6 @@
 package com.w2a.listeners;
 
+import java.io.File;
 import java.io.IOException;
 
 import org.testng.ITestResult;
@@ -18,7 +19,7 @@ public class ExtentReportManager extends TestBase {
 
 	public void setExtent() {
 		
-		extent = new ExtentReports("C:\\Users\\Animesh\\.jenkins\\workspace\\LiveProject1_Jenkins\\liveProject\\ExtentReport.html", true);
+		extent = new ExtentReports(File.separator+"\\ExtentReport.html", true);
 		extent.addSystemInfo("Host Name", "Animesh Windows");
 		extent.addSystemInfo("User Name", "Animesh's Workstation");
 		extent.addSystemInfo("Environment", "QA");
