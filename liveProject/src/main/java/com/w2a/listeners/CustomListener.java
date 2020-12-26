@@ -20,7 +20,6 @@ public class CustomListener extends ExtentReportManager implements ITestListener
 
 		extentTest.log(LogStatus.PASS, "Test Case PASSED IS " + result.getName());
 		extent.endTest(extentTest);
-		extent.flush();
 
 	}
 

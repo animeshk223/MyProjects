@@ -27,7 +27,7 @@ public class ExtentReportManager extends TestBase {
 		
 	}
 	
-
+/*
 	public void tearDown(ITestResult result) throws IOException {
 
 		if (result.getStatus() == ITestResult.FAILURE) {
@@ -50,10 +50,12 @@ public class ExtentReportManager extends TestBase {
 		extent.endTest(extentTest); // ending test and ends the current test and prepare to create html report
 
 	}
+*/
 
-	public void endReport() {
+	/*public void endReport() {
 		extent.flush();
 		extent.close();
 	}
-
+*/
 }
+
