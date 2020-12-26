@@ -19,7 +19,8 @@ public class ExtentReportManager extends TestBase {
 
 	public void setExtent() {
 		
-		extent = new ExtentReports(File.separator+"\\ExtentReport.html", true);
+		System.out.println("user directory:--->"+System.getProperty("user.dir"));
+		extent = new ExtentReports(System.getProperty("user.dir")+File.separator+"\\ExtentReport.html", true);
 		extent.addSystemInfo("Host Name", "Animesh Windows");
 		extent.addSystemInfo("User Name", "Animesh's Workstation");
 		extent.addSystemInfo("Environment", "QA");
